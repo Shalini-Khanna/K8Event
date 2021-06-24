@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: external-container
-          image: shakhanna/external:2.0
+          image: shakhanna/external:2.1
           env:
             - name: SERVER
               valueFrom:
